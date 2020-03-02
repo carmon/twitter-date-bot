@@ -1,0 +1,23 @@
+{
+  "name": "twitter-date-bot",
+  "version": "1.0.0",
+  "description": "Twitter bot that tweets until a specific date arrives.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js -r test/index.js test/features/*",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [
+    "bot",
+    "twitter"
+  ],
+  "author": "carmon",
+  "license": "ISC",
+  "dependencies": {
+    "dos-config": "^3.0.2",
+    "twitter-lite": "^0.9.4"
+  },
+  "devDependencies": {
+    "cucumber": "^6.0.5"
+  }
+}
